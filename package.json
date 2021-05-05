@@ -1,0 +1,27 @@
+{
+  "name": "recurrente",
+  "version": "0.0.1",
+  "description": "A library for integrating with Recurrente",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recurrente/recurrente-js.git"
+  },
+  "keywords": [
+    "pagos",
+    "pagos recurrentes",
+    "recurrente",
+    "recurrente.js",
+    "payments",
+    "stripe"
+  ],
+  "author": "Max <max@recurrente.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/recurrente/recurrente-js/issues"
+  },
+  "homepage": "https://github.com/recurrente/recurrente-js#readme"
+}
