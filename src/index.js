@@ -10,7 +10,7 @@ class Recurrente {
 
   createCheckout(button) {
     const outerThis = this
-    fetch(`http://localhost:3001/api/checkouts`, {
+    fetch(`https://app.recurrente.com/api/checkouts`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
