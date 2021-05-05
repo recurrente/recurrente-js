@@ -58,4 +58,3 @@ class Recurrente {
 }
 
 window.Recurrente = Recurrente
-export Recurrente
