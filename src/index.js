@@ -58,7 +58,4 @@ class Recurrente {
 }
 
 window.Recurrente = Recurrente
-module.exports = {
-  Recurrente,
-  default: Recurrente,
-}
+export Recurrente
