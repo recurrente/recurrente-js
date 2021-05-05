@@ -49,7 +49,8 @@ class Recurrente {
     const submitButtons = Array.from(document.querySelectorAll("[data-recurrente-button]"))
     if (submitButtons.length > 0) {
       submitButtons.map((submitButton) => {
-        submitButton.addEventListener("click", function () {
+        submitButton.addEventListener("click", function (e) {
+          e.preventDefault()
           outerThis.createCheckout(submitButton)
         })
       })
